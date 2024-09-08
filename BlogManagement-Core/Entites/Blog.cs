@@ -12,6 +12,7 @@ namespace BlogManagement_Core.Entites
         public string Title { get; set; }
         public string Article { get; set; }
         public string ImagePath { get; set; }
+
         public string Author { get; set; }
         public int UserId { get; set; }
         public DateTime CreationTime { get; set; }  
